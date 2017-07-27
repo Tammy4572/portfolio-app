@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Cookie');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+/*
+font-family: 'Cookie', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Open Sans';
+*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+.btn {
+     color: #fff;
+}
+.btn-text {
+     color: #fff;
+}
+.nav {
+     /*background-color: #a4ba70;*/
+}
+.nav-link {
+
+     color: #fff;
+     text-decoration: none;
+     border: 1px solid purple;
+     padding-top: 70px;
+     font-size: 20px;
+}
+.logo {
+     background-image: url('../logo.svg');
+     height: 80px;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+hr {
+     border-color: #eee;
+     border-style: solid none;
+     border-width: 1px 0;
+     margin: 18px 0;
+}
+.container-fluid {
+     width: 90%;
+}
+.col-md-7 {
+   width: 58.33333333%;
+ }
+ .row {
+      padding: 20px;
+}
+.heading {
+     font-size: 18px;
+     font-weight: 500;
+}
+.footer-title {
+     font-size: 20px;
+     font-family: 'Patrick Hand', cursive;
+}
+.footer {
+     background-color: #93ba9d;
+     color: #fff;
+     align-content: center;
+}
+.heading {
+     font-family: "Patrick Hand",cursive;font-size: 60px;
+     color: #93ba9d;
+}
+.primary-text {
+     font-size: 125%;
+      line-height: 3rem;
+      font-family: Raleway;
+      color: #4c6252;
+}
+.email {
+     background-color: rgb(33,33,33);
+     color: #fff;
+     padding-bottom: 20px;
+}

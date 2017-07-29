@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/App.css';
-
+import { Link } from 'react-router-dom';
 
 export default class Portfolio extends Component {
      render() {
@@ -9,8 +9,8 @@ export default class Portfolio extends Component {
           <div className="app-body offset col-lg-10 col-lg-offset-1">
                <div className="row">
                  <div className="col-lg-12">
-                     <h1 className="page-header">Page Heading
-                         <small>Secondary Text</small>
+                     <h1 className="page-header">My Portfolio
+                         <small>A few projects I have worked on in the past.</small>
                      </h1>
                  </div>
                 </div>
@@ -22,7 +22,7 @@ export default class Portfolio extends Component {
                           <h3>Project One</h3>
                           <h4>Subheading</h4>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                          <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                          <button className="btn btn-primary btn-lg btn-block" type="submit"><Link to={'/#'}>View Project</Link></button>
                      </div>
                </div>
                <div className="row">
@@ -33,7 +33,7 @@ export default class Portfolio extends Component {
                            <h3>Project One</h3>
                            <h4>Subheading</h4>
                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                           <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                           <button className="btn btn-primary btn-lg btn-block" type="submit"><Link to={'/#'}>View Project</Link></button>
                       </div>
                </div>
                <div className="row">
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
                             <h3>Project One</h3>
                             <h4>Subheading</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                            <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                            <button className="btn btn-primary btn-lg btn-block" type="submit"><Link to={'/#'}>View Project</Link></button>
                       </div>
                </div>
                <div className="row">
@@ -55,7 +55,7 @@ export default class Portfolio extends Component {
                             <h3>Project One</h3>
                             <h4>Subheading</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-                            <a className="btn btn-primary" href="#">View Project <span className="glyphicon glyphicon-chevron-right"></span></a>
+                           <button className="btn btn-primary btn-lg btn-block" type="submit"><Link to={'/#'}>View Project</Link></button>
                       </div>
                </div>
           </div>

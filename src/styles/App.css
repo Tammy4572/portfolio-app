@@ -36,8 +36,8 @@ font-family: 'Open Sans';
 .btn-text {
      color: #fff;
 }
-.nav {
-     /*background-color: #a4ba70;*/
+.btn-block a{
+     color: #fff;
 }
 .nav-link {
 
@@ -86,11 +86,18 @@ hr {
 .footer-title {
      font-size: 20px;
      font-family: 'Patrick Hand', cursive;
+     text-align: center;
 }
 .footer {
      background-color: #93ba9d;
      color: #fff;
      align-content: center;
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+}
+.address {
+     text-align: center;
 }
 .heading {
      font-family: "Patrick Hand",cursive;font-size: 60px;
@@ -106,4 +113,13 @@ hr {
      background-color: rgb(33,33,33);
      color: #fff;
      padding-bottom: 20px;
+}
+.btn-block {
+     width: 50%;
+     margin: 0 auto;
+}
+.headerImg {
+     background-image: url('../styles/bg.jpg');
+     height: 400px;
+     background-attachment: fixed;
 }

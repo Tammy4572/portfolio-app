@@ -5,9 +5,12 @@ font-family: 'Cookie', cursive;
 font-family: 'Patrick Hand', cursive;
 font-family: 'Open Sans';
 */
-
+/**{
+     outline: 1px solid rgba(255, 0, 0, 0.2);
+}*/
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -39,13 +42,30 @@ font-family: 'Open Sans';
 .btn-block a{
      color: #fff;
 }
-.nav-link {
-
+.nav-link a{
      color: #fff;
      text-decoration: none;
-     border: 1px solid purple;
-     padding-top: 70px;
      font-size: 20px;
+}
+.navbar {
+     background-color: #93BA9D;
+     color: #fff;
+     padding-top: 7px;
+}
+.navbar-inverse {
+     width: 100%;
+     background-color: #93BA9D;
+}
+.navbar-nav {
+     color: #fff;
+     font-size: 25px;
+     padding-left: 35px;
+}
+.glyphicon, .logo {
+     color: #fff;
+}
+.nav-link {
+     color: #fff;
 }
 .logo {
      background-image: url('../logo.svg');
@@ -77,7 +97,7 @@ hr {
    width: 58.33333333%;
  }
  .row {
-      padding: 20px;
+      padding: 10px;
 }
 .heading {
      font-size: 18px;
@@ -100,7 +120,8 @@ hr {
      text-align: center;
 }
 .heading {
-     font-family: "Patrick Hand",cursive;font-size: 60px;
+     font-family: "Patrick Hand",cursive;
+     font-size: 60px;
      color: #93ba9d;
 }
 .primary-text {
@@ -118,8 +139,19 @@ hr {
      width: 50%;
      margin: 0 auto;
 }
+small {
+     margin-right: 20px;
+}
 .headerImg {
-     background-image: url('../styles/bg.jpg');
+     background-image: url('../styles/img/ocean-bg.jpg');
      height: 400px;
      background-attachment: fixed;
+     border-radius: 10px;
+}
+ul {
+     list-style-type: none;
+}
+.contact-form {
+     width: 80%;
+     margin: 0 auto;
 }

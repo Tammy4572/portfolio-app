@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 export default class BaseLayout extends Component {
@@ -7,10 +7,6 @@ export default class BaseLayout extends Component {
           let titleStyle = {
                "fontFamily": "Patrick Hand",
                "fontSize": "120%"
-          }
-          let subtitleStyle = {
-               "fontFamily": "serif",
-               "fontSize": "12px"
           }
           let headerStyle = {
                "textAlign": "center",
@@ -28,15 +24,17 @@ export default class BaseLayout extends Component {
                          <div className="container-fluid">
                               <div className="navbar-header">
                                    <ul className="nav navbar-nav">
-                                        <li sytle={navTitle}><Link to="/">SplashPage</Link></li>
-                                        <li style={navTitle}><Link to="/home">Home</Link></li>
-                                        <li style={navTitle}><Link to="/about">About</Link></li>
-                                        <li><Link to="/portfolio">Portfolio</Link></li>
+                                        <li className="nav-link" activeClassName sytle={navTitle}><NavLink to="/">SplashPage</NavLink></li>
+                                        <li className="nav-link" activeClassName style={navTitle}><NavLink to="/home">Home</NavLink></li>
+                                        <li className="nav-link" activeClassName style={navTitle}><NavLink to="/about">About</NavLink></li>
+                                        <li className="nav-link" activeClassName style={navTitle}><NavLink to="/portfolio">Portfolio</NavLink></li>
+                                        <li className="nav-link" activeClassName style={navTitle}><NavLink to="/contact">Contact</NavLink></li>
+                                        <li className="nav-link" activeClassName style={navTitle}><NavLink to="/references">References</NavLink></li>
                                    </ul>
                               </div>
                          </div>
                     </nav>
-                    <div className="col-lg-12 header headerImg" style={headerStyle}>
+                    <div className="col-lg-12 header" style={headerStyle}>
                          <div className="header-title">
                               <div className="details" style={titleStyle}>Tammy Castro</div>
                          </div>

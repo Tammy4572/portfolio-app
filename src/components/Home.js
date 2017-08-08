@@ -14,7 +14,7 @@ export default class Home extends Component {
       }
           return (
                <div className="container col-lg-12">
-                    <section className="row" style={servicesStyle}>
+                    <section className="row headerImg" style={servicesStyle}>
                          <h2 className="headerStyle">Welcome Home</h2>
                     </section>
                     <div>

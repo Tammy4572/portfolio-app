@@ -4,11 +4,10 @@ import '../styles/App.css';
 export default class About extends Component {
   render() {
     let aboutStyle = {
-      "backgroundImage": "url('./styles/bg.jpg')",
+      "backgroundImage": "url('./styles/ocean-bg.jpg')",
       "backgroundSize": "cover",
       "backgroundPosition": "top",
-      "height": "50%",
-      "padding": "100px"
+      "height": "50%"
     }
 
     return (
@@ -27,8 +26,9 @@ export default class About extends Component {
             </p>
           </article>
         </section>
+        <div className="headerImg"/>
         <section className="row" style={aboutStyle}>
-          <article className="col-lg-5">
+          <article className="col-lg-10 ">
             <h2 className="heading">
             More About Me...
             </h2>

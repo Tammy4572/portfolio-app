@@ -6,9 +6,8 @@ class App extends Component {
      return (
            <div className="app-body container-fluid">
                <div className="container">
-                    <h2 className="col-lg-12 heading header">Tammy</h2>
-                         <p className="primary-text">Cotton candy pudding toffee cookie. Cheesecake sugar plum pie sugar plum brownie. Cotton candy ice cream topping pudding. Icing bear claw powder. Gummi bears muffin sesame snaps chocolate cake tootsie roll muffin croissant sugar plum. Bear claw jelly-o marshmallow gummies.
-                         </p>
+                    <h2 className="col-lg-12 heading headerImg">Tammy</h2>
+                    <p className="primary-text">Cotton candy pudding toffee cookie. Cheesecake sugar plum pie sugar plum brownie. Cotton candy ice cream topping pudding. Icing bear claw powder. Gummi bears muffin sesame snaps chocolate cake tootsie roll muffin croissant sugar plum. Bear claw jelly-o marshmallow gummies.</p>
                </div>
                <hr/>
                <div className="App-intro">
